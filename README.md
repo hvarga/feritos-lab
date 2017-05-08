@@ -144,11 +144,42 @@ Gornja naredba omogucuje pristup izbornom kodu svih primjerima C aplikacija za l
 
 Neke greske su lako uocljive, dok za neke se mora koristiti specijalizirani set alata. Za potrebe uspijesnog rijesavanja svakog primjera, studenti imaju pristup sljedecim alatima:
 
-- GCC
-- GDB
-- Valgrind
-- strace
-- Vim
+**GCC**
+
+```
+# build application
+$ gcc source
+# ... with debugging symbol
+$ gcc -g source
+```
+
+**GDB**
+
+```
+# interactive debugg
+$ gdb source
+```
+
+**Valgrind**
+
+```
+# debug and profile application
+$ valgrind source
+```
+
+**strace**
+
+```
+# trace system calls and signals
+$ strace source
+```
+
+**Vim**
+
+```
+# edit source code
+vim source
+```
 
 Nakon cijele laboratorijske vjezbe, studenti ce dobiti uvid u sljedece tehnologije:
 
