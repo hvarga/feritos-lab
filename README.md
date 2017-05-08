@@ -132,6 +132,24 @@ Spojiti microSD karticu u Raspberry Pi 3 te ukljuciti ga na izvor napajanja sa p
 
 U drugom djelu vjezbe ce studenti proci kroz nekoliko primjera aplikacija pisanih u programskom jeziku C koje u sebi imaju razne tipicne greske koje se dogadaju prilikom razvoja C/C++ aplikacija. Za potrebe debuganja aplikacija, studentima je unaprijed pripremljena VirtualBox VM masina. Na svakom racunalu je potrebno imati instaliran VirtualBox. Razlog tome je sto nam za razvoj aplikacije potreban GNU/Linux operacijski sustav koji sadrzi odredeni set alata potreban za razvoj i otkrivanje gresaka. Naglasak na ovom djelu vjezbe nisu znanja o C programskom jeziku, nego na okruzenju, skilovima i potrebnim alatima da bi se razvijala aplikacija za ugradene sustave. Cilj studentima ce biti da otkriju te greske te da njih i isprave.
 
+##### Primjeri C aplikacija
+
+Koristeci Git, klonirati `git@github.com:hvarga/feritos-lab.git` u direktorij po zelji:
+
+```
+$ git clone git@github.com:hvarga/feritos-lab.git
+```
+
+Gornja naredba omogucuje pristup izbornom kodu svih primjerima C aplikacija za laboratorijsku vjezbu. Svaki primjer detaljno prouciti te naci rijesenje gresaka. Svaki primjer ima greske u izvornom kodu koju treba otkriti i ispraviti. Greske, koje su namjerno postavljene, su vrlo realne i ocrtavaju tipican radni dan. Postoje greske koje uzrokuju SEGFAULT te rezultiraju trenutnom stopiranje procesa, ili greske koje uzrokuju konstantno povecanje potrosnje RAM memorije za vrijeme rada aplikacije.
+
+Neke greske su lako uocljive, dok za neke se mora koristiti specijalizirani set alata. Za potrebe uspijesnog rijesavanja svakog primjera, studenti imaju pristup sljedecim alatima:
+
+- GCC
+- GDB
+- Valgrind
+- strace
+- Vim
+
 Nakon cijele laboratorijske vjezbe, studenti ce dobiti uvid u sljedece tehnologije:
 
 - GNU Toolchain
