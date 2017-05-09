@@ -1,0 +1,4 @@
+This program has requires you to input the requested data. First a number of people you wish to add to the database, then name and age of each of these people. This information must be printed out if the user requires it and it must be correct. After that the program must ask you if you want to do all that again. This must be asked on invalid input also.
+The program must show the correct information, exit with error code 0 and valgrind must not show any errors.
+Use this command line:
+valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all --leak-resolution=high --track-origins=yes ./main.out

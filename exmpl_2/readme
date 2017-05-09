@@ -1,0 +1,5 @@
+The correct output for this exercise is total number of prime numbers between 1 and 100 and a list of these prime numbers.
+The program must show the correct information, exit with error code 0 and valgrind must not show any errors.
+Use this command line:
+valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all --leak-resolution=high --track-origins=yes ./main.out
+
