@@ -1,1 +1,5 @@
-This exercise is not finished!
+This program needs to print the three arrays of numbers and letters. It must do that by copying the localy initialized arrays to a struct with those arrays.
+
+The program must show the correct information, exit with error code 0 and valgrind must not show any errors.
+Use this command line:
+valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all --leak-resolution=high --track-origins=yes ./main.out
