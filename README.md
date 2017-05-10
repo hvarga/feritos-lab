@@ -80,7 +80,7 @@ Promjeniti vrijednost `MACHINE` varijable u `raspberrypi3`:
 MACHINE ??= "raspberrypi3"
 ```
 
-Promjeniti vrijednost `EXTRA_IMAGE_FEATURES` varijable dodajuci `tools-debug`.
+Promjeniti vrijednost `EXTRA_IMAGE_FEATURES` varijable dodajuci `tools-debug` (razmak odvaja vrijednosti).
 
 Na kraju datoteke dodati:
 
