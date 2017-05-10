@@ -191,3 +191,13 @@ Nakon cijele laboratorijske vjezbe, studenti ce dobiti uvid u sljedece tehnologi
 - Vim
 - Docker
 - Yocto
+
+### Literatura
+- Yocto Documentation (https://www.yoctoproject.org/documentation)
+- An Introduction to GCC, http://www.network-theory.co.uk/gcc/intro/
+- C: A Reference Manual (http://www.careferencemanual.com/)
+- Expert C Programming (https://www.amazon.com/Expert-Programming-Peter-van-Linden/dp/0131774298)
+- Introduction to Embedded C, Peter J. Vidler
+- Pro Git (https://git-scm.com/book/en/v2)
+- docker for begginers (https://prakhar.me/docker-curriculum/)
+- Practical Vim (https://pragprog.com/book/dnvim2/practical-vim-second-edition)
