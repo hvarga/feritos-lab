@@ -1,4 +1,4 @@
-## Razvoj prilagodene Linux distribucije u sklopu projekta Yocto
+## GNU/Linux i Open Source alati za razvoj ugradenih sustava
 
 ### Sadrzaj laboratorijske vjezbe
 
