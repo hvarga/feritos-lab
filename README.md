@@ -201,3 +201,4 @@ Nakon cijele laboratorijske vjezbe, studenti ce dobiti uvid u sljedece tehnologi
 - Pro Git (https://git-scm.com/book/en/v2)
 - docker for begginers (https://prakhar.me/docker-curriculum/)
 - Practical Vim (https://pragprog.com/book/dnvim2/practical-vim-second-edition)
+- The Ultimate Open Source Development Environment (https://hvarga.github.io/pages/the-ultimate-open-source-development-environment/)
