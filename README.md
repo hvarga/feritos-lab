@@ -134,10 +134,10 @@ U drugom djelu vjezbe ce studenti proci kroz nekoliko primjera aplikacija pisani
 
 ##### Primjeri C aplikacija
 
-Koristeci Git, klonirati `git@github.com:hvarga/feritos-lab.git` u direktorij po zelji:
+Koristeci Git, klonirati `github.com/hvarga/feritos-lab` u direktorij po zelji:
 
 ```
-$ git clone git@github.com:hvarga/feritos-lab.git
+$ git clone https://github.com/hvarga/feritos-lab.git
 ```
 
 Gornja naredba omogucuje pristup izbornom kodu svih primjerima C aplikacija za laboratorijsku vjezbu. Svaki primjer detaljno prouciti te naci rijesenje gresaka. Svaki primjer ima greske u izvornom kodu koju treba otkriti i ispraviti. Greske, koje su namjerno postavljene, su vrlo realne i ocrtavaju tipican radni dan. Postoje greske koje uzrokuju SEGFAULT te rezultiraju trenutnom stopiranje procesa, ili greske koje uzrokuju konstantno povecanje potrosnje RAM memorije za vrijeme rada aplikacije.
