@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 
 LABEL maintainer "hrvoje.varga@sartura.hr"
 LABEL build "sudo docker build -t yocto-image-builder ."
-LABEL run "sudo docker run --rm yocto-image-builder"
+LABEL run "sudo docker run -it --rm yocto-image-builder"
 
 # Yocto's depends
 RUN apt-get -qq --yes update && \
